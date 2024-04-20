@@ -1,0 +1,90 @@
+/* for select-search-input */
+.custom-select {
+    position: relative;
+    width: 100%;
+    min-height: 40px;
+    z-index: 999;
+  }
+  
+  .select-input {
+    width: 100%;
+    padding: 10px;
+    min-height: 40px;
+    cursor: pointer;
+    color: #75868f;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, .07);
+    border: -5px;
+  }
+  
+  .options-container {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    max-height: 200px;
+    overflow-y: auto;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  }
+  
+  .search-input {
+    width: 100%;
+    padding: 10px;
+  }
+  
+  .options-list {
+    list-style-type: none;
+    padding-left: 0 !important;
+  }
+  
+  .options-list li {
+    padding: 10px;
+  }
+  
+  li.active {
+    background-color: #1677ff;
+    color: #000;
+  }
+  
+  .options-list li:hover {
+    background-color: #7f8894;
+    color: #000;
+  }
+  
+  .load-more-button {
+    display: block;
+    margin-top: -1px;
+    width: calc(100% - 20px);
+    padding: 10px;
+    border-radius: inherit;
+  }
+  
+  .select-input::after {
+    content: "\25BC";
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+  }
+  
+  
+  .chips {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .chip {
+    background-color: #e0e0e0;
+    border-radius: 14px;
+    padding: 2px 4px;
+    margin: 0px 2px 0px 2px;
+  }
+  
+  .close-icon {
+    font-size: 10px;
+    margin-left: 4px;
+    cursor: pointer;
+    padding: 6px;
+  }
