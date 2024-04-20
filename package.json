@@ -1,15 +1,16 @@
 {
   "name": "select-search-input-tk",
-  "version": "1.0.0",
+  "version": "1.0.7",
   "description": "",
-  "main": "lib/index.jsx",
+  "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "files": [
-    "lib"
+    "lib",
+    "src/selectSearchData.css"
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tsc"
+    "build": "tsc && cp src/selectSearchData.css lib" 
   },
   "keywords": [
     "search select input",

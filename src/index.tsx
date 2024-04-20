@@ -94,7 +94,7 @@ const SelectSearchData: React.FC<Props> = (props) => {
   }, [selectedValues])
 
   //khi search thay đổi thì gửi giá trị về component cha để tiến hành gọi api
-  const handleInputChange = async (event: React.ChangeEvent<HTMLInputElement>) => {
+  const handleInputChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     const search = event.target.value;
     setSearchValue(search);
     onSearch && onSearch(search, false, false);
