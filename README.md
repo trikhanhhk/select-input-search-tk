@@ -49,7 +49,7 @@ import 'select-search-input-tk/lib/selectSearchData.css';
 ```
 
 ## Version
-1.0.5
+1.0.8
 
 ## Author
 tk0038
